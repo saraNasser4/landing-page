@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Project</title>
+    <link href="https://fonts.googleapis.com/css?family=Anton%7CBaskervville%7CRaleway&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"/>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main>
+      <section class="heading">
+        <header id="header">
+          <div id="header-img">
+            <img alt="logo" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png">
+          </div>
+          <nav id="nav-bar">
+            <ul>
+              <li><a class="nav-link" href="#features">Features</a></li>
+              <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+              <li><a class="nav-link" href="#pricing">Pricing</a></li>
+            </ul>
+          </nav>
+        </header>
+        <div class="landing">
+          <form id="form" method="POST" action="https://www.freecodecamp.com/email-submit">
+            <fieldset>
+              <label for="email">Handcrafted, home-made masterpiesces</label>
+              <input type="email" id="email" placeholder="Enter your email address">
+              <input type="submit" class="btn" id="submit" value="Get Started">
+            </fieldset>
+          </form>
+        </div>
+      </section>
+      <section id="features">
+        <div class="features-container">
+
+          <div class="grid">
+            <div class="icon">
+              <i class="fa fa-3x fa-fire"></i>
+            </div>
+            <div class="text">
+              <h2>Premium Materials</h2>
+              <p>
+                Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.
+              </p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon">
+              <i class="fa fa-3x fa-truck"></i>
+            </div>
+            <div class="text">
+              <h2>Fast Shipping</h2>
+              <p>  
+                We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.
+              </p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon">
+              <i class="fa fa-3x fa-battery-full"></i>
+            </div>
+            <div class="text">
+              <h2>Quality Assurance</h2>
+              <p>  
+                For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="how-it-works">
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc?si=ihKspF-ETyo_vC0m&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </section>
+
+      <section id="pricing">
+        <div class="card">
+          <h3>Tenor trombone</h3>
+          <span>$600</span>
+          <p>Lorem ipsum dolor.<br>
+             Lorem isum dolor.<br>
+             Lorem ipsum dolor.<br>
+             Lorem isum dolor.
+          </p>
+          <button class="btn">SELECT</button>
+        </div>
+        <div class="card">
+          <h3>bass trombone</h3>
+          <span>$900</span>
+          <p>Lorem ipsum dolor.<br>
+             Lorem isum dolor.<br>
+             Lorem ipsum dolor.<br>
+             Lorem isum dolor.
+          </p>
+          <button class="btn">SELECT</button>
+        </div>
+        <div class="card">
+          <h3>valve trombone</h3>
+          <span>$1200</span>
+          <p>Lorem ipsum dolor.<br>
+             Lorem isum dolor.<br>
+             Lorem ipsum dolor.<br>
+             Lorem isum dolor.
+          </p>
+          <button class="btn">SELECT</button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
+
